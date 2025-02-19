@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout de tres columnas</title>
+  <style>
+
+    <!--Epecialmente para blogs o sitios web informativos,
+    con una barra lateral izquierda, contenido principal o central y una barra lateral derecha-->
+    .container {
+      display: flex;
+    }
+    .left,
+    .right {
+      width: 20%;
+      background-color: #f0f0f0;
+      padding: 10px;
+    }
+    .center {
+      width: 60%;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h2>Izquierda</h2>
+      <p>Contenido adicional.</p>
+    </div>
+    <div class="center">
+      <h1>Contenido principal</h1>
+      <p>Texto central.</p>
+    </div>
+    <div class="right">
+      <h2>Derecha</h2>
+      <p>Más contenido adicional.</p>
+    </div>
+  </div>
+</body>
+</html>
